@@ -1,0 +1,29 @@
+/*全局变量*/
+*{margin:0;padding:0}
+body{font-family:Arial,"Microsoft YaHei","宋体",sans-serif;color:#787878;background-color: #fff;font-size:13px;font-weight: normal;
+  position: relative;}
+ul,li{list-style-type:none;}
+body a{color:#787878;text-decoration:none;cursor: pointer;font-size: 14px;}
+body a:hover{color:#00af95;}
+body a:visited{color:#787878;}
+img {border:0;-ms-interpolation-mode: bicubic;vertical-align: middle;}
+button{cursor: pointer;}
+input,button{outline: 0 none;resize:none;-webkit-appearance: none;}
+input,textarea,select,button{outline: none;}
+/*
+ webkit-scrollbar
+---------------------------------------------------*/
+::-webkit-scrollbar {width: 8px;height: 8px;}
+::-webkit-scrollbar-thumb {background-color: #ccc;}
+::-webkit-scrollbar-track {box-shadow: inset 0px 0px 2px rgba(200,200,200,1);}
+::-webkit-scrollbar-track-piece {background-color: #e5e5e5;}
+div,img{-webkit-user-select: none;}
+html{font-size: 50px;line-height: normal;line-height: 1.43;}
+.body{position: relative;width: 100%;max-width: 980px;min-width: 320px;margin: 0 auto;background: #fff;}
+.relative{position: relative;}
+.text-center{text-align: center;}
+.img100 img{width: 100%;}
+.hide{display: none;}
+.pointer{cursor: pointer;}
+.pinkBtn{border-radius: 0.1rem;color: #fff;background: #f8869d;text-align: center;}
+.borderBtn{border: 1px solid #d5d5d6;border-radius: 0.1rem;color: #97989a;text-align: center;}

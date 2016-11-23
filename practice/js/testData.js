@@ -1,0 +1,1 @@
+angular.module("testModel",[]),angular.module("testModel").factory("Servdatas",function(){return{user:[{url:"/serverth/publics/user/v1/login",method:"post",fun:function(){return{resultCode:0,resultMessage:"string",userName:"string",resources:[{id:0}]}}}]}});

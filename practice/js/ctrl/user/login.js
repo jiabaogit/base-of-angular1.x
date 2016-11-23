@@ -1,0 +1,1 @@
+function loginCtrl(l){var r={username:"asdef",password:"sdf",verifyCode:"sdf"};l.port({way:"post",url:"/serverth/publics/user/v1/login",data:r,success:function(l){console.log(l)},debug:!0})}loginCtrl.$inject=["HttpUtil"],angular.module("thapp").register.controller("loginCtrl",loginCtrl);
